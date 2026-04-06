@@ -1,0 +1,6 @@
+import cmath
+z_str = input().strip()
+z = complex(z_str)
+r, phi = cmath.polar(z)
+print(r)
+print(phi)
